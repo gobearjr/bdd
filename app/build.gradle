@@ -10,7 +10,8 @@ android {
         targetSdkVersion 28
         versionCode 2
         versionName "1.1"
-        testInstrumentationRunner getInstrumentation()
+//        testInstrumentationRunner getInstrumentation()
+        testInstrumentationRunner  'com.sniper.bdd.cucumber.runner.CucumberTestRunner'
     }
     buildTypes {
         debug {
